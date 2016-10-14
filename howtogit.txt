@@ -1,0 +1,17 @@
+git remote add origin https://github.com/julesWu/Week-6-Discussion.git  
+		# this connected me with her repository
+
+git pull origin master
+		# i pull her files in her repository. if i ls, i can see them.
+
+git status
+	# to make sure my files are being tracked. 
+
+git add .  or git add “myfilename.txt”
+	# if my files are not currently in my repository.
+
+git commit -m “myfilename.txt”
+	# commits current edits of my file.
+
+git push origin master
+	# add my files to her group repository.
